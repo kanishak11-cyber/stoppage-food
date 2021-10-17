@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoppage Food </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="sawo.css"> -->
+
+</head>
+
+<body>
+    <!-- <div id="sawo-container" style="height: 300px; width: 300px;"></div> -->
+    <!-- <script src="http://websdk.sawolabs.com/sawo.min.js"></script> <script> var config = { // should be same as the id of the container created on 3rd step containerID: "sawo-container", // can be one of 'email' or 'phone_number_sms' identifierType: "phone_number_sms", // Add the API key copied from 2nd step apiKey: "", // Add a callback here to handle the payload sent by sdk onSuccess: (payload) => { console.log(payload) }, }; var sawo = new Sawo(config); sawo.showForm(); </script> -->
+    <script src="http://websdk.sawolabs.com/sawo.min.js"></script> <script> var config = { 
+        // should be same as the id of the container created on 3rd step 
+        containerID: "sawo-container", 
+        // can be one of 'email' or 'phone_number_sms' 
+        identifierType: "phone_number_sms", 
+        // Add the API key copied from 2nd step 
+        apiKey: "d3f43716-15eb-4915-b79c-c7dff78a5e1b", 
+        // Add a callback here to handle the payload sent by sdk 
+        onSuccess: (payload) => { console.log(payload) }, }; 
+        var sawo = new Sawo(config); sawo.showForm(); </script>
+    <!-- header section starts  -->
+
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Dhaba food</a>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#home"  class="outer-shadow hover-in-shadow">home</a>
+            <a href="#speciality"  class="outer-shadow hover-in-shadow">speciality</a>
+            <a href="#popular"  class="outer-shadow hover-in-shadow">popular</a>
+            <a href="#gallery"  class="outer-shadow hover-in-shadow">gallery</a>
+            <a href="#review"  class="outer-shadow hover-in-shadow">review</a>
+            <a href="#order"  class="outer-shadow hover-in-shadow">order</a>
+            <a href="#"  class="outer-shadow hover-in-shadow"><i class="fab fa-shopping-basket"></i> </a>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>food made with love</h3>
+            <p><span>Dhaba food </span>recreates the ambience of the archetypical highway eatery, complete with a truck mural,
+                rustic interiors and servers dressed in Punjabi garb. Replete with wooden tables and chairs
+                upholstered in phulkari work to traditional pickle containers and an old radio belting out hits from
+                yesteryear’s movies, Dhaba offers a taste of wholesome goodness with signature dishes like
+                tandoori kebabs, balti meat, baingan ka bharta and chef's special thali</p>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+        <div class="image">
+            <img src="images/dhaba.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- speciality section starts  -->
+    <section class="menu" id="menu">
+        <h1 class="heading"> our <span>Menu</span> </h1>
+
+        <ul class="cocktails">DHABA COCKTAILS</ul>
+        <th>Santa Banta </th>
+        </section>
+    <section class="speciality" id="speciality">
+
+        <h1 class="heading"> our <span>speciality</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img class="image" src="images/paratha-1.png" alt="">
+                <div class="content">
+                    <img src="images/paratha-1.png" alt="">
+                    <h3>aloo paratha</h3>
+                    <p>Aloo Paratha is a bread dish originating from the Indian subcontinent. It is a breakfast dish originated from the Punjab region</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/paratha-2.png" alt="">
+                <div class="content">
+                    <img src="images/paratha-2.png" alt="">
+                    <h3>muglai paratha</h3>
+                    <p>Mughlai paratha is a popular Bengali street food which is believed to have originated in Bengal Subah during the time of Mughal Empire. The dish is believed to be prepared for the royal court of Mughal Emperor Jahangir</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/paratha-3.png" alt="">
+                <div class="content">
+                    <img src="images/paratha-3.png" alt="">
+                    <h3>khasta paratha</h3>
+                    <p>A crispy and crunchy paratha recipe,Khasta paratha is best enjoyed with curd, pickle or chutney.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/paratha-4.png" alt="">
+                <div class="content">
+                    <img src="images/paratha-4.png" alt="">
+                    <h3>mix-veg paratha</h3>
+                    <p>Mix veg paratha made with whole wheat flour, mixed vegetables, spices & herbs. It is a healthy & Kids' friendly breakfast recipe. These mix vegetable parathas taste delicious and are super soft.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/paratha-5.png" alt="">
+                <div class="content">
+                    <img src="images/paratha-5.png" alt="">
+                    <h3>masala laccha paratha</h3>
+                    <p>Laccha paratha is a unique flatbread which can be made with both wheat flour and all-purpose flour. It is traditionally fried with ghee and becomes crispy and flaky, and the layers can be visible from outside.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img class="image" src="images/paratha-6.png" alt="">
+                <div class="content">
+                    <img src="images/paratha-6.png" alt="">
+                    <h3>avacado paratha</h3>
+                    <p></p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- speciality section ends -->
+
+    <!-- popular section starts  -->
+
+    <section class="popular" id="popular">
+
+        <h1 class="heading"> most <span>popular</span> foods </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <span class="price"> Rs. 20/- </span>
+                <img src="images/lassi.jfif" alt="">
+                <h3>lassi</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+            <div class="box">
+                <span class="price"> Rs. 20/-  </span>
+                <img src="images/gulab.png" alt="">
+                <h3>gulab jamun</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+            <div class="box">
+                <span class="price"> Rs. 60/-</span>
+                <img src="images/rabri.png" alt="">
+                <h3>rabri</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">order now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- popular section ends -->
+
+    <!-- steps section starts  -->
+
+    <div class="step-container">
+
+        <h1 class="heading">how it <span>works</span></h1>
+
+        <section class="steps">
+
+            <div class="box">
+                <img src="images/step-1.jpg" alt="">
+                <h3>choose your favorite food</h3>
+            </div>
+            <div class="box">
+                <img src="images/step-2.jpg" alt="">
+                <h3>free and fast delivery</h3>
+            </div>
+            <div class="box">
+                <img src="images/step-3.jpg" alt="">
+                <h3>easy payments methods</h3>
+            </div>
+            <div class="box">
+                <img src="images/step-4.jpg" alt="">
+                <h3>and finally, enjoy your food</h3>
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- steps section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading"> our food <span> gallery </span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/dh1.png" alt="">
+                <div class="content">
+                    <h3>delhi Special</h3>
+                    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p> -->
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/dh2.png" alt="">
+                <div class="content">
+                    <h3>punjabi special</h3>
+                    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p> -->
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/dh3.png" alt="">
+                <div class="content">
+                    <h3>Bengal special</h3>
+                    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p> -->
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/dh4.png" alt="">
+                <div class="content">
+                    <h3>haryana special</h3>
+                    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p> -->
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/dh5.png" alt="">
+                <div class="content">
+                    <h3>south special</h3>
+                    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p> -->
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/dh6.png" alt="">
+                <div class="content">
+                    <h3>himachal special</h3>
+                    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p> -->
+                    <a href="#" class="btn">order now</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> our customers <span>reviews</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/profile-1.png" alt="">
+                <h3>kanishak chaurasia</h3>
+                <p>The food is very Delicious and the service is also good</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+            </div>
+            
+            <div class="box">
+                <img src="images/bhak.png" alt="">
+                <h3>Bhavya Sachdeva</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="box">
+                <img src="images/pp.jpg" alt="">
+                <h3>Kanika Gola</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+
+        <h1 class="heading"> <span>order</span> now </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/waiter.jfif" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="food name">
+                </div>
+
+                <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="order now" class="btn">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- order section ends -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="btn outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i> </a>
+            <a href="#" class="btn outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i> </a>
+            <a href="#" class="btn outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i> </a>
+            <!-- <a href="#" class="btn outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i> </a> -->
+            <!-- <a href="#" class="btn">facebook</a>
+            <a href="#" class="btn">twitter</a>
+            <a href="#" class="btn">instagram</a>
+            <a href="#" class="btn">pinterest</a>
+            <a href="#" class="btn">linkedin</a> -->
+        </div>
+
+        <!-- <h1 class="credit"> created by <span> Kanishak chaurasia </span> | all rights reserved! </h1> -->
+
+    </section>
+
+    <!-- scroll top button  -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <!-- loader  -->
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
